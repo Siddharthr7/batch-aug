@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            background-color: green;
+            justify-content: center;
+            align-items: center;
+            margin: 2% 33% 10% 33%;
+            /* size: 100%; */
+            font-style: italic;
+        }
+
+        form {
+            background-color: white;
+            width: 100%;
+            padding: 25px;
+        }
+
+        input[type=text] {
+            align-items: center;
+            size: 100%;
+            width: 100%;
+            padding: 5px;
+
+        }
+
+        input[type=age] {
+            align-items: center;
+            size: 100%;
+            width: 100%;
+            padding: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 5px;
+            background-color: lightgreen;
+            border: 0px;
+        }
+
+        select {
+            width: 100%;
+            padding: 5px;
+            width: 100%;
+        }
+        textarea{
+            width: 100%;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+
+        <div>
+            <div class="heading" style="text-align: center;">
+                <h1>GeeksForGeeksSurvey Form</h1>
+            </div>
+
+            <div class="body">
+                <form action="" style="text-align: centre;">
+                    Name: <input type="text" placeholder="Enter Your Name">
+                    <br>
+                    <label for="">E-mail: </label> <br>
+                    <input type="text" placeholder="Enter Your E-mail">
+                    <br>
+                    <label for="">Age: </label> <br>
+                    <input type="age" placeholder="Enter Your Age">
+                    <br>
+                    <label for="">Which Option Best Describes You?</label> <br>
+                    <select name="name" id="name">
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Principle">Principle</option>
+                        <option value="Clerk">Clerk</option>
+                    </select>
+                    <br>
+                    <label for="">Would you recommed GeeksForGeeks to a friend? </label> <br>
+                    <input type="radio" name="yes_no_maybe" checked>Yes</input> <br>
+                    <input type="radio" name="yes_no_maybe" checked>No</input> <br>
+                    <input type="radio" name="yes_no_maybe" checked>Maybe</input> <br>
+
+                    <label for="">Languages and Framework known <small> ( check all that apply) </small> </label> <br>
+                    <input type="checkbox">C</input> <br>
+                    <input type="checkbox">C++</input> <br>
+                    <input type="checkbox">C#</input> <br>
+                    <input type="checkbox">Java</input> <br>
+                    <input type="checkbox">Python</input> <br>
+                    <input type="checkbox">JavaScript</input> <br>
+                    <input type="checkbox">React</input> <br>
+                    <input type="checkbox">Angular</input> <br>
+                    <input type="checkbox">Django</input> <br>
+                    <input type="checkbox">Spring</input> <br> <br>
+                    <label for=""> Any Comments Or Suggestions</label>
+                    <textarea name="message" rows="5" cols="58"></textarea>
+
+                    <br>
+                    <br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
